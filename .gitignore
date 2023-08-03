@@ -76,6 +76,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.vscode
 
 # Spyder project settings
 .spyderproject
@@ -94,3 +95,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore images and audio
+*.wav
+*.png
