@@ -95,7 +95,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
+git
 # Ignore images and audio
 *.wav
 *.png
