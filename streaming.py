@@ -6,7 +6,7 @@ spark.sparkContext.setLogLevel("ERROR")
 print("Start streaming.")
 
 while True:
-    bucket = "panda-spectogram"
+    bucket = "panda-spectrogram"
     topic = "music_ingested"
     image_path = consume(topic=topic)
     if image_path is not None:
