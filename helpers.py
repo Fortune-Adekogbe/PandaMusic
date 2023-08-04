@@ -29,7 +29,7 @@ def upload_to_s3(image_path, bucket):
             os.remove(image_path)
     return object_name
 
-def check_file(key, bucket='panda-spectogram'):
+def check_file(key, bucket='panda-spectrogram'):
     try:
         s3_client.head_object(Bucket=bucket, Key=key)
         return True
