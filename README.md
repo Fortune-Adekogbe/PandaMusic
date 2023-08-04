@@ -7,7 +7,7 @@ This project ingests audio files, generates melspectrograms using Librosa, and u
 
 The pipeline follows these steps:
 
-1. An audio file is uploaded via a streamlined interface.
+1. An audio file is uploaded via a streamlit interface.
 2. The uploaded file is saved to a known directory.
 3. A Kafka producer sends a message with the topic "music_ingested" and the audio file path.
 4. A Kafka consumer that's running in a while loop ingests the message, reading from the Redpanda Kafka server using Spark in Python.
