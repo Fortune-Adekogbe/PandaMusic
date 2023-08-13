@@ -1,4 +1,4 @@
-from consumer import *
+from consumer import spark, consume, upload_and_produce
 
 spark.sparkContext.setLogLevel("ERROR")
 
