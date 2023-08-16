@@ -45,6 +45,10 @@ Next, you need to set up your Kafka and Spark environments:
 - Start your Redpanda servers. Refer to [the documentation](https://docs.redpanda.com/docs/get-started/quick-start/) on how to do this.
 - Ensure that Spark is correctly configured with your Python environment.
 
+### AWS S3 Bucket Setup
+
+Create a bucket in your S3 account named `panda-spectrogram`.
+
 ### AWS Environment Variables
 
 Add your AWS Access Key ID, Secret Access Key, default region name to a `.env` file in the project folder.
