@@ -1,5 +1,5 @@
 
-# PandaMusic: Audio Processing Pipeline with Kafka, Spark, and Redpanda
+# data-processing-spark-AWS-S3
 
 This project ingests audio files, generates melspectrograms using Librosa, and uploads the image to AWS S3. The pipeline leverages Kafka for message passing and Spark for data processing. 
 
@@ -62,11 +62,3 @@ Then, run the command below in another terminal:
 ```bash
 python streaming.py
 ```
-
-## Contributing
-
-...
-
-## Contact
-
-Fortune Adekogbe - fortuneadekogbe@gmail.com
